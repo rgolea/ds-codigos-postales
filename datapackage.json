@@ -1,0 +1,33 @@
+{
+  "name": "ds-codigos-postales",
+  "title": "Dataset de Códigos Postales",
+  "description": "Geometrías de todos los códigos postales de España, incluyendo los códigos INE de los municipios asociados",
+  "sources": [
+    {
+      "name": "CNIG - Centro Nacional de Información Geográfica",
+      "web": "http://centrodedescargas.cnig.es/CentroDescargas/"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Javier Escribano"
+    },
+    {
+      "name": "Iñigo Flores"
+    }
+  ],
+  "resources": [
+    {
+      "name": "codigos_postales",
+      "path": "data/codigos_postales.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 159860385
+    }
+  ],
+  "homepage": "",
+  "version": "0.1.3",
+  "license": "ODC-PDDL-1.0",
+  "repository": "git://github.com/codeforspain/ds-codigos-postales.git",
+  "last_updated": "2016-11-24"
+}
