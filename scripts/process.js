@@ -7,8 +7,6 @@ var fs = require('fs');
 var glob = require("glob")
 var ogr2ogr = require('ogr2ogr');
 var events = require('events');
-var dpinit = require('datapackage-init');
-var semver = require("semver");
 
 var SOURCES_FOLDER = '../archive/';
 var DEST_FILE = '../data/codigos_postales.geojson';
@@ -16,6 +14,8 @@ var separator = ""; //valor inicial
 
 var eventHandler = new events.EventEmitter();
 var outfile = fs.createWriteStream(DEST_FILE);
+
+var zlib = require('zlib');
 
 /**
  * Procesa fichero zip y graba json
@@ -44,6 +44,10 @@ function parse(files) {
   });
 }
 
+function createGzip(){
+
+
+}
 
 // Procesa nuevo grupo de geometrías, añade el código INE y graba a disco
 eventHandler.on('process',function(data){
@@ -58,17 +62,23 @@ eventHandler.on('process',function(data){
 // Cierra el geojson y actualiza datapackage.json
 eventHandler.on('end',function(){
   outfile.write('\n]}');
-  // Actualizamos/Creamos datapackage.json
-  dpinit.init("../", function (err, datapackageJson) {
-    //Actualizamos fecha y semver
-    var today = new Date();
-    datapackageJson.last_updated = today.getFullYear() + "-" + ("00" + (today.getMonth() + 1)).slice(-2) + "-" + ("00" + today.getDate()).slice(-2);
-    datapackageJson.version = semver.inc(datapackageJson.version, 'patch');
 
-    //Grabamos a disco
-    fs.writeFile("../datapackage.json", JSON.stringify(datapackageJson, null, 2));
-  });
-  console.log('Done');
+  // TEMPORAL - Borra el json y crea un gzip menor de 100 Mb (limitación Github)
+  const gzip = zlib.createGzip();
+  const inp = fs.createReadStream(DEST_FILE);
+  const out = fs.createWriteStream(DEST_FILE + '.gz');
+  inp.pipe(gzip).pipe(out);
+  fs.unlinkSync(DEST_FILE);
+
+
+  /* // Actualizamos datapackage.json - Desactivado por el gzip
+  var exec = require('child_process').exec;
+  var cmd = 'node update.js';
+  exec(cmd, function(error, stdout, stderr) {});
+  */
+
+  console.log('Done!');
+
 
 });
 
