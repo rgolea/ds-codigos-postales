@@ -52,7 +52,7 @@ function createGzip(){
 // Procesa nuevo grupo de geometrías, añade el código INE y graba a disco
 eventHandler.on('process',function(data){
   data.forEach(function(item){
-    item.properties.CODIGO_INE=String("000000000000" + item.properties.ID_CP).slice(5);
+    item.properties.CODIGO_INE=parseInt(item.properties.ID_CP / 10000000);
     outfile.write(separator + "\n" + JSON.stringify(item) )//, null, '\t'));
     if (separator == "") separator = ",";
   })
