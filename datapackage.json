@@ -380,11 +380,39 @@
       "format": "geojson",
       "mediatype": "application/json",
       "bytes": 3996762
+    },
+    {
+      "name": "codigos_postales",
+      "path": "data/codigos_postales.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 181920822
+    },
+    {
+      "name": "codigos_postales_municipios",
+      "path": "data/codigos_postales_municipios.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 169893,
+      "schema": {
+        "fields": [
+          {
+            "name": "COD_POSTAL",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "CODIGO_INE",
+            "type": "integer",
+            "description": ""
+          }
+        ]
+      }
     }
   ],
   "homepage": "",
-  "version": "0.1.109",
+  "version": "0.1.128",
   "license": "ODC-PDDL-1.0",
   "repository": "git://github.com/codeforspain/ds-codigos-postales.git",
-  "last_updated": "2016-11-26"
+  "last_updated": "2016-11-27"
 }

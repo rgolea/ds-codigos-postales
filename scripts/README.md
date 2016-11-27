@@ -1,6 +1,6 @@
 # Script
 
-Descarga y procesa shapefiles de Cartociudad y extrae las geometrías de los códigos postales a un único archivo geojson.
+Descarga y procesa shapefiles de Cartociudad y convierte las geometrías de los códigos postales a un archivo GEOJSON por provincia, con la opción de poder generar un único GEOJSON para toda España.
 
 ## Modo de Uso
 
@@ -10,7 +10,16 @@ Descarga y procesa shapefiles de Cartociudad y extrae las geometrías de los có
 
 ### Procesado
     
-    $ node process.js
+    $ ./process.sh [-m]
+
+Si se inovoca sin argumentos, convierte los shapefiles de las provincias a sus correspondientes archivos GEOJSON.
+
+Opciones
+           
+          -m     Hace un merge de todos los shapefiles individuales a un único shapefile y lo convierte a GEOJSON. 
+                 También genera el CSV sin geometrías.                          
+          
+          
 
     
 ## Requisitos

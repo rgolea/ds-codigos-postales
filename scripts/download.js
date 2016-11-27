@@ -10,7 +10,6 @@ var _ = require('underscore');
 var async = require('async');
 var request = require('request');
 var glob = require("glob")
-var ogr2ogr = require('ogr2ogr');
 
 // Constantes
 var BASEURL = 'http://centrodedescargas.cnig.es/CentroDescargas/downloadFile.do?seq=';

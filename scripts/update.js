@@ -17,6 +17,6 @@ dpinit.init("../", function (err, datapackageJson) {
 
   //Grabamos a disco
   fs.writeFile("../datapackage.json", JSON.stringify(datapackageJson, null, 2));
-  console.log('Done!');
+  console.log('daptapackage.json updated.');
 
 });
