@@ -408,11 +408,37 @@
           }
         ]
       }
+    },
+    {
+      "name": "codigos_postales_municipios_join",
+      "path": "data/codigos_postales_municipios_join.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 294926,
+      "schema": {
+        "fields": [
+          {
+            "name": "codigo_postal",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "municipio_id",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "nombre",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
     }
   ],
   "homepage": "",
-  "version": "0.1.128",
+  "version": "0.1.129",
   "license": "ODC-PDDL-1.0",
   "repository": "git://github.com/codeforspain/ds-codigos-postales.git",
-  "last_updated": "2016-11-27"
+  "last_updated": "2016-11-29"
 }
