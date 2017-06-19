@@ -415,7 +415,7 @@ codigo_postal,municipio_id,nombre
 12118,12122,"Useras/Useres, les"
 12119,12005,"Alcora, l'"
 12119,12049,Costur
-12120,12072,Lucena del Cid
+12120,12072,Llucena/Lucena del Cid
 12121,12005,"Alcora, l'"
 12122,12060,Figueroles
 12123,12041,Castillo de Villamalefa
@@ -1943,14 +1943,14 @@ codigo_postal,municipio_id,nombre
 18248,18132,Moclín
 18249,18132,Moclín
 18250,18158,Pinos Puente
-18260,18102,Illora
+18260,18102,Íllora
 18270,18135,Montefrío
 18280,18012,Algarinejo
 18290,18003,Albolote
 18290,18022,Atarfe
 18290,18037,Calicasas
 18291,18158,Pinos Puente
-18293,18102,Illora
+18293,18102,Íllora
 18295,18012,Algarinejo
 18300,18100,Huétor Tájar
 18300,18122,Loja
@@ -1975,13 +1975,13 @@ codigo_postal,municipio_id,nombre
 18339,18059,Chauchina
 18340,18079,Fuente Vaqueros
 18340,18158,Pinos Puente
-18350,18102,Illora
+18350,18102,Íllora
 18360,18100,Huétor Tájar
 18360,18122,Loja
 18369,18188,Villanueva Mesía
 18370,18138,Moraleda de Zafayona
-18380,18102,Illora
-18381,18102,Illora
+18380,18102,Íllora
+18381,18102,Íllora
 18400,18147,Órgiva
 18410,18043,Carataunas
 18410,18147,Órgiva
@@ -3309,7 +3309,7 @@ codigo_postal,municipio_id,nombre
 23616,23034,Fuensanta de Martos
 23620,23061,Mengíbar
 23628,23027,Cazalilla
-23628,23032,Espelúy
+23628,23032,Espeluy
 23630,23903,Villatorres
 23638,23903,Villatorres
 23639,23050,Jaén
@@ -5809,7 +5809,7 @@ codigo_postal,municipio_id,nombre
 31008,31201,Pamplona/Iruña
 31009,31201,Pamplona/Iruña
 31010,31201,Pamplona/Iruña
-31010,31901,Barañain
+31010,31901,Barañáin/Barañain
 31011,31201,Pamplona/Iruña
 31012,31201,Pamplona/Iruña
 31013,31016,Ansoáin/Antsoain
@@ -5843,12 +5843,12 @@ codigo_postal,municipio_id,nombre
 31171,31193,Cendea de Olza/Oltza Zendea
 31172,31118,Goñi
 31172,31131,Iza/Itza
-31172,31194,Ollo
+31172,31194,Valle de Ollo/Ollaran
 31173,31193,Cendea de Olza/Oltza Zendea
 31174,31052,Belascoáin
 31174,31075,Ciriza/Ziritza
 31174,31076,Cizur
-31174,31083,Echarri
+31174,31083,Echarri/Etxarri
 31174,31085,Etxauri
 31174,31121,Guirguillano
 31174,31253,Bidaurreta
@@ -7444,13 +7444,9 @@ codigo_postal,municipio_id,nombre
 36100,36038,Pontevedra
 36100,36058,Vilaboa
 36110,36007,Campo Lameiro
-36116,36011,Cerdedo
 36117,36007,Campo Lameiro
 36118,36007,Campo Lameiro
 36119,36007,Campo Lameiro
-36120,36012,Cotobade
-36121,36012,Cotobade
-36139,36011,Cerdedo
 36140,36058,Vilaboa
 36141,36058,Vilaboa
 36142,36058,Vilaboa
@@ -7603,7 +7599,6 @@ codigo_postal,municipio_id,nombre
 36555,36018,Forcarei
 36556,36018,Forcarei
 36557,36018,Forcarei
-36558,36011,Cerdedo
 36558,36018,Forcarei
 36559,36018,Forcarei
 36560,36018,Forcarei
@@ -7757,12 +7752,6 @@ codigo_postal,municipio_id,nombre
 36852,36019,Fornelos de Montes
 36853,36025,"Lama, A"
 36853,36043,Ponte Caldelas
-36854,36012,Cotobade
-36855,36012,Cotobade
-36856,36012,Cotobade
-36857,36012,Cotobade
-36858,36012,Cotobade
-36859,36012,Cotobade
 36860,36042,Ponteareas
 36861,36042,Ponteareas
 36862,36042,Ponteareas
@@ -10331,7 +10320,7 @@ codigo_postal,municipio_id,nombre
 46117,46903,San Antonio de Benagéber
 46118,46228,Serra
 46119,46178,Náquera
-46120,46013,Alboraya
+46120,46013,Alboraia/Alboraya
 46127,46070,Bétera
 46130,46164,Massamagrell
 46131,46074,Bonrepòs i Mirambell
@@ -10387,7 +10376,7 @@ codigo_postal,municipio_id,nombre
 46178,46262,"Yesa, La"
 46179,46041,Aras de los Olmos
 46180,46051,Benaguasil
-46181,46067,Benisanó
+46181,46067,Benissanó
 46182,46190,Paterna
 46183,46116,"Eliana, l'"
 46184,46070,Bétera
@@ -10560,7 +10549,7 @@ codigo_postal,municipio_id,nombre
 46726,46033,Almiserà
 46726,46091,Castellonet de la Conquesta
 46726,46153,Llocnou de Sant Jeroni
-46727,46211,Real de Gandía
+46727,46211,"Real de Gandia, el"
 46728,46131,Gandia
 46728,46187,Palma de Gandía
 46729,46002,Ador
@@ -10603,7 +10592,7 @@ codigo_postal,municipio_id,nombre
 46838,46150,Llutxent
 46838,46196,Pinet
 46839,46049,Bellús
-46839,46069,Benisuera
+46839,46069,Benissuera
 46839,46138,Guadasséquies
 46839,46226,Sempere
 46840,46200,"Pobla del Duc, la"

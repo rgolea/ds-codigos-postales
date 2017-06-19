@@ -437,8 +437,8 @@
     }
   ],
   "homepage": "",
-  "version": "0.1.129",
+  "version": "0.1.131",
   "license": "ODC-PDDL-1.0",
   "repository": "git://github.com/codeforspain/ds-codigos-postales.git",
-  "last_updated": "2016-11-29"
+  "last_updated": "2017-06-19"
 }

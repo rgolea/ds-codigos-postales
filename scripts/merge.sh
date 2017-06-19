@@ -38,8 +38,8 @@ csvcut -C "municipio_id" > $dataFolder/$outputJoinCSV
 echo -e "\nConvirtiendo a GEOJSON"
 
 # Convertir a GEOJSON
-rm $dataFolder/$output.geojson # Borramos antes, -overwrite no parece funciona
+rm $dataFolder/$output.geojson # Borramos antes, -overwrite no parece funcionar
 ogr2ogr -overwrite -mapFieldType Date=String -f GeoJSON $dataFolder/$output.geojson $dataFolder/$output
 # Borrar Shapefile
-rm -rf $dataFolder/$output
+# rm -rf $dataFolder/$output
 echo -e "\nFinalizado"
