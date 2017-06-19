@@ -9,7 +9,7 @@ geometrías asociadas a cada código postal en formato .geojson.
 - Fuente: Centro Nacional de Información Geográfica (CNIG) 
 - URL: http://centrodedescargas.cnig.es/CentroDescargas/buscadorCatalogo.do?codFamilia=02122
 - Tipo: Shapefile  
-- Datos procesados: [/data/codigos_postales_municipio.csv](data/codigos_postales_municipio.csv) 
+- Datos procesados: [/data/codigos_postales_municipio.csv](data/codigos_postales_municipios_join.csv) 
  
 Este recurso ofrece un listado de todos los códigos postales junto con el código INE del municipio asociado. 
 
@@ -20,7 +20,7 @@ Este recurso ofrece un listado de todos los códigos postales junto con el códi
 - Fuente: Centro Nacional de Información Geográfica (CNIG) 
 - URL: http://centrodedescargas.cnig.es/CentroDescargas/buscadorCatalogo.do?codFamilia=02122
 - Tipo: Shapefile  
-- Datos procesados: [/data/codigos_postales_municipio.csv](data/[NOMBRE_MUNICIPIO].geojson) 
+- Datos procesados: [/data/](data/) 
 
 Recurso que proporciona las geometrías de todos los códigos postales de España. Se incluyen en archivos separados que se corresponden con las provincias a las que pertenecen. 
 
