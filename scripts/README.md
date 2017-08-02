@@ -1,6 +1,10 @@
 # Script
 
+
+
 Descarga y procesa shapefiles de Cartociudad y convierte las geometrías de los códigos postales a un archivo GEOJSON por provincia, con la opción de poder generar un único GEOJSON para toda España.
+
+**Nota**: Desde primeros de 2017, los códigos postales ya no están incluidos en las descargas de Cartociudad del CNIG, por lo que el script de descarga no va a funcionar. Según se comenta, está información ya no está disponible por decisión del Grupo Correos.
 
 ## Modo de Uso
 
